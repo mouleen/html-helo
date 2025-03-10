@@ -2,17 +2,21 @@ body{
     background: lightgray;
     margin: 0 auto;
 }
-/*
-#header{
-    display: flex;
-    height: 70px;
-    padding: 5px;
-    background: white;
-    margin: 5px;
-   width: 650px;
-   align-items: center;
-   justify-content: center;
-}*/
+.bg1{
+    background-image: url("/img/dog-bg1.jpg");
+}
+
+.bg2{
+    background-image: url("/img/dog-bg2.jpg");
+}
+
+.bg3{
+    background-image: url("/img/dog-bg3.jpg");
+}
+
+.bg4{
+    background-image: url("/img/dog-bg1.jpg");
+}
 #header{
     display: flex;
     width: 100%;
@@ -42,21 +46,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% auto;      
 }
-.bg1{
-    background-image: url("/img/dog-bg1.jpg");
-}
 
-.bg2{
-    background-image: url("/img/dog-bg2.jpg");
-}
-
-.bg3{
-    background-image: url("/img/dog-bg3.jpg");
-}
-
-.bg4{
-    background-image: url("/img/dog-bg1.jpg");
-}
 .wrapper #div1{
     background:white;
     width: 650px;
